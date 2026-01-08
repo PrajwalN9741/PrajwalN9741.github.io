@@ -2,7 +2,7 @@
 <h1 align="center">🌐 Prajwal N — Portfolio Website</h1>
 
 <p align="center">
-  <a href="portfolio-web-github-io-zeta.vercel.app" target="_blank">
+  <a href="https://portfolio-web-github-io-zeta.vercel.app/" target="_blank">
     🔗 <strong>Live Demo</strong>
   </a>
 </p>
