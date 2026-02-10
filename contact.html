@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Prajwal N</title>
+  <meta name="description" content="Get in touch with Prajwal N via email, phone, or social media." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Prajwal N</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Courses & Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-header">
+    Get in Touch
+  </header>
+
+  <section class="container my-5">
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <div class="contact-form">
+          <h3 class="mb-4">Send Me a Message</h3>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cf7033e8-c5b9-42a2-81a2-4fca2b31da6b">
+
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required />
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required />
+
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" required />
+
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="contact-info">
+          <h4>Contact Information</h4>
+          <p><i class="fa-solid fa-envelope"></i> prajwalrajn9@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +91 9741245850</p>
+          <p><i class="fab fa-github"></i> <a href="https://github.com/PrajwalN9741" class="text-white"
+              target="_blank">github.com/PrajwalN9741</a></p>
+          <div class="social-icons mt-3">
+            <a href="https://www.linkedin.com/in/prajwal-n9741" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_._ite_me_prajju.__" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:prajwalrajn9@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 🔹 AI Assistant Button -->
+  <button id="prajwal-ai-btn"><i class="fas fa-robot"></i></button>
+
+  <!-- 🔹 Chat Window -->
+  <div id="prajwal-ai-chat">
+    <header>
+      <span>🤖 Prajwal’s AI</span>
+      <span id="prajwal-ai-close" style="cursor:pointer;">✕</span>
+    </header>
+
+    <div id="prajwal-ai-messages">
+      <div class="pmsg bot">
+        Hi! I'm <strong>Prajwal’s AI Assistant</strong> — ask me anything about coding, skills, or your portfolio!
+      </div>
+    </div>
+
+    <div id="prajwal-ai-input">
+      <input id="prajwal-ai-text" type="text" placeholder="Type your question..." />
+      <button id="prajwal-ai-send"><i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <div id="prajwal-ai-note">
+      💡 Powered by ChatGPT (GPT-5 API)
+    </div>
+  </div>
+
+  <!-- 🔹 Font Awesome & JS -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="js/chat.js"></script>
+
+  <footer>
+    &copy; 2025 Prajwal N | Designed with Bootstrap 5
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

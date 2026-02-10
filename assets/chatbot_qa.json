@@ -1,0 +1,114 @@
+{
+    "greetings": {
+        "questions": [
+            "hi",
+            "hello",
+            "hey",
+            "hii",
+            "hola"
+        ],
+        "answer": "Hello 👋 How can I help you explore **Prajwal’s portfolio** today?"
+    },
+    "about": {
+        "questions": [
+            "who is prajwal",
+            "about prajwal",
+            "who are you"
+        ],
+        "answer": "👤 **Prajwal** is a **final-year BCA student** skilled in **Web Development, Machine Learning, and Software Development**."
+    },
+    "education": {
+        "questions": [
+            "education",
+            "qualification",
+            "academic background"
+        ],
+        "answer": "🎓 **Education**<br><br>• **BCA (Final Year)** – National Degree College, Bagepalli<br>• **CGPA:** 8.34 | **Completion:** 2026<br><br>• **PUC:** Shree Vijaya College, Chintamani<br>• **Percentage:** 82% | **Year:** 2022<br><br>• **SSLC:** Kishor Composite High School, Chelur<br>• **Percentage:** 89.6% | **Year:** 2020"
+    },
+    "skills": {
+        "questions": [
+            "skills",
+            "technologies",
+            "courses"
+        ],
+        "answer": "🧠 **Courses & Skills**<br><br>🔹 Frontend: HTML, CSS, JavaScript<br>🔹 Programming: Python, Java, C++, C<br>🔹 Tools: Flask, Tkinter, NumPy, Pandas<br>🔹 Database: DBMS, SQLite3"
+    },
+    "projects": {
+        "questions": [
+            "projects",
+            "completed projects",
+            "portfolio projects"
+        ],
+        "answer": "📂 **Projects Overview**<br><br>• PromptStack v1<br>• Student Performance Prediction<br>• College Website<br>• Jessica IDS/IPS (Ongoing)<br><br>👉 Ask me about **any specific project**."
+    },
+    "project_promptstack": {
+        "questions": [
+            "promptstack",
+            "promptstack v1"
+        ],
+        "answer": "🧩 **PromptStack v1**<br>A comprehensive tool to manage, version, and optimize AI prompts, built to streamline workflows for LLM developers."
+    },
+    "project_student_performance": {
+        "questions": [
+            "student performance",
+            "student performance prediction",
+            "ml project"
+        ],
+        "answer": "📊 **Student Performance Prediction**<br>An ML-based system that predicts student grades using academic and social factors to help identify at-risk students early."
+    },
+    "project_college_website": {
+        "questions": [
+            "college website",
+            "web project",
+            "college project"
+        ],
+        "answer": "🏫 **College Website**<br>A responsive college website built using HTML, CSS, JavaScript, and Bootstrap to showcase academic and campus information."
+    },
+    "project_ids_ips": {
+        "questions": [
+            "jessica",
+            "ids",
+            "ips",
+            "jessica ids",
+            "security project"
+        ],
+        "answer": "🛡️ **Jessica IDS/IPS (Ongoing)**<br>An AI-driven Intrusion Detection & Prevention System using Machine Learning to detect and block network threats in real time."
+    },
+    "certificates": {
+        "questions": [
+            "certificates",
+            "certification"
+        ],
+        "answer": "📜 **Certificates**<br>• Machine Learning in Python<br>• Web Development & Programming related certifications"
+    },
+    "resume": {
+        "questions": [
+            "resume",
+            "cv",
+            "download resume",
+            "download cv"
+        ],
+        "answer": "📄 Download Prajwal’s resume:<br><a href='/assets/prajwal_N.pdf' target='_blank'>Download Resume</a>"
+    },
+    "contact": {
+        "questions": [
+            "contact",
+            "email",
+            "phone",
+            "github"
+        ],
+        "answer": "📞 **Contact Info**<br><br>📧 prajwalrajn9@gmail.com<br>📱 +91 9741245850<br>💻 <a href='https://github.com/PrajwalN9741' target='_blank'>GitHub</a>"
+    },
+    "internship": {
+        "questions": [
+            "internship",
+            "job",
+            "hire"
+        ],
+        "answer": "✅ Prajwal is actively seeking **internships and entry-level roles** in **Web Development, ML, and Software Development**."
+    },
+    "fallback": {
+        "questions": [],
+        "answer": "🤖 You can ask about **education, skills, certificates, projects, resume, or contact details**."
+    }
+}

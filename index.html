@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prajwal N - Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Prajwal N — Web Developer, Python Programmer. Explore projects, skills, and education." />
+  <meta name="author" content="Prajwal N" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome (free CDN) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Prajwal N</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Courses & Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center flex-column">
+    <div class="container">
+      <h1>Hello, I'm <span class="text-primary">Prajwal N</span><br />
+        I'M A
+        <span class="auto-type text-primary"></span>
+      </h1>
+      <p class="mt-4 fs-5 text-light opacity-75">A passionate final-year degree student with expertise in web
+        development, Python, Java, C++, and more.</p>
+      <a href="projects.html" class="btn btn-lg btn-custom mt-5 shadow-lg rounded-pill px-5">Explore My Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section (Glass Effect) -->
+  <!-- About Section (Glass Effect) -->
+  <section class="container my-5" id="about">
+    <div class="card p-4 glass-card border-0"
+      style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px);">
+      <div class="row align-items-center">
+        <div class="col-md-5 mb-4 mb-md-0 text-center">
+          <img src="img/prajju.png" class="img-fluid profile-glow" alt="About Me">
+        </div>
+        <div class="col-md-7">
+          <h2 class="section-heading mb-4 text-start">About Me</h2>
+          <p class="lead text-white">Hello! I'm <strong>Prajwal N</strong>, a passionate <span class="text-primary">Full
+              Stack Developer</span> and <span class="text-secondary">AI Enthusiast</span>.</p>
+          <p class="text-muted">
+            I am currently in my final year of BCA at <strong>National Degree College, Bagepalli</strong>.
+            My journey in tech is driven by curiosity—whether it's building responsive websites, solving complex data
+            structures, or training machine learning models.
+          </p>
+          <p class="text-muted">
+            I enjoy bridging the gap between design and functionality. When I'm not coding, I'm exploring the latest in
+            AI trends or refining my problem-solving skills.
+          </p>
+          <div class="d-flex gap-3 mt-4">
+            <a href="projects.html" class="btn btn-primary rounded-pill px-4 shadow-sm">View Projects</a>
+            <a href="skills.html" class="btn btn-outline-light rounded-pill px-4">My Skills</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 AI Assistant Button -->
+  <button id="prajwal-ai-btn" aria-label="Open chat"><i class="fas fa-robot"></i></button>
+
+  <!-- 🔹 Chat Window -->
+  <div id="prajwal-ai-chat" role="dialog" aria-hidden="true" aria-label="Prajwal's AI assistant">
+    <header>
+      <span>🤖 Prajwal’s AI</span>
+      <button id="prajwal-ai-close" aria-label="Close chat" style="cursor:pointer;">✕</button>
+    </header>
+
+    <div id="prajwal-ai-messages" aria-live="polite">
+      <div class="pmsg bot">
+        Hi! I'm <strong>Prajwal’s AI Assistant</strong> — ask me anything about coding, skills, or your portfolio!
+      </div>
+    </div>
+
+    <div id="prajwal-ai-input">
+      <input id="prajwal-ai-text" type="text" placeholder="Type your question..." aria-label="Type your question" />
+      <button id="prajwal-ai-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <div id="prajwal-ai-note">
+      💡 Prajwal AI Assistant
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["CODER", "DEVELOPER", "PROGRAMMER", "DESIGNER"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
+  <script src="js/chat.js"></script>
+
+  <!-- Footer -->
+  <footer>
+    &copy; <span id="year-footer"></span> Prajwal N | Designed with Bootstrap 5
+  </footer>
+
+  <script>
+    // small JS to set footer year
+    const y = document.getElementById("year-footer");
+    if (y) y.textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Projects - Prajwal N</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Prajwal N</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Courses & Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-header">
+    My Projects
+  </header>
+
+  <section class="container my-5">
+    <!-- Completed Projects -->
+    <h3 class="mb-4 border-bottom pb-2 text-primary"><i class="fas fa-check-circle me-2"></i>Completed Projects</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+
+      <!-- PromptStack v1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="img/app_icon.png" class="project-logo" alt="PromptStack v1"
+            style="object-fit: contain; padding: 20px;" />
+          <div class="card-body">
+            <h5 class="card-titlefw-bold">PromptStack v1</h5>
+            <p class="card-text">A comprehensive tool for managing, versioning, and optimizing AI prompts. Built to
+              streamline the workflow for LLM developers.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 d-flex gap-2">
+            <a href="https://github.com/PrajwalN9741/promptstack-v1" class="btn btn-outline-light btn-sm"
+              target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://promptstack-v1.onrender.com" class="btn btn-primary btn-sm" target="_blank"><i
+                class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Performance Prediction -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="img/student_performance_thumbnail.png" class="project-logo" alt="Student Performance Prediction" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Student Performance Prediction</h5>
+            <p class="card-text">Machine learning model to predict student grades based on various academic and social
+              factors.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="https://github.com/PrajwalN9741/Student-performance-prediction"
+              class="btn btn-outline-light btn-sm" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- College Website -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="img/logo_clg.png" class="project-logo" alt="College Website Logo" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">College Website</h5>
+            <p class="card-text">A responsive college website designed with HTML, CSS, JavaScript, and Bootstrap.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 d-flex gap-2">
+            <a href="https://github.com/PrajwalN9741/College-Website" class="btn btn-outline-light btn-sm"
+              target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://prajwaln9741.github.io/College-Website/" class="btn btn-primary btn-sm" target="_blank"><i
+                class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ongoing Projects -->
+    <h3 class="mb-4 border-bottom pb-2 text-warning"><i class="fas fa-tools me-2"></i>Ongoing Projects</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Jessica IDS/IPS -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-warning">
+          <img src="img/jessica_ids_thumbnail.png" class="project-logo" alt="Jessica IDS/IPS" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Jessica IDS/IPS</h5>
+            <p class="card-text">AI-driven Hybrid Intrusion Detection and Prevention System. Uses advanced ML to detect
+              and block threats in real-time.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <span class="badge bg-warning text-dark"><i class="fas fa-hourglass-half"></i> In Improvements</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AI Assistant (same markup as index) -->
+  <button id="prajwal-ai-btn"><i class="fas fa-robot"></i></button>
+  <div id="prajwal-ai-chat">
+    <header>
+      <span>🤖 Prajwal’s AI</span>
+      <span id="prajwal-ai-close" style="cursor:pointer;">✕</span>
+    </header>
+
+    <div id="prajwal-ai-messages">
+      <div class="pmsg bot">
+        Hi! I'm <strong>Prajwal’s AI Assistant</strong> — ask me anything about coding, skills, or your portfolio!
+      </div>
+    </div>
+
+    <div id="prajwal-ai-input">
+      <input id="prajwal-ai-text" type="text" placeholder="Type your question..." />
+      <button id="prajwal-ai-send"><i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <div id="prajwal-ai-note">
+      💡 Powered by ChatGPT (GPT-5 API)
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/chat.js"></script>
+
+  <footer>
+    &copy; <span id="year"></span> <strong>Prajwal N</strong> | Made with 💙 and HTML CSS & JS.
+  </footer>
+
+  <script>
+    // set year
+    const yearSpan = document.getElementById("year");
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+
+</html>
