@@ -200,25 +200,90 @@
     </div>
   </section>
 
-  <!-- Certificates -->
-  <header class="hero-header">My Certificates</header>
-  <section class="container my-5">
-    <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
-      <div class="col">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5>Machine Learning in Python</h5>
-            <img src="img/Machine_Learning.png" alt="Machine Learning Certificate"
-              class="img-fluid rounded shadow-sm mb-3" style="max-height: 250px;">
-            <p>Issued by: IBM via CognitiveClass.ai<br>Date: July 2025</p>
-            <a href="https://courses.cognitiveclass.ai/certificates/1f424af1950f4934b7ebeb3d9e87038c" target="_blank"
-              class="btn btn-outline-primary">View Certificate</a>
-          </div>
+  <!-- Certificates & Internship -->
+<header class="hero-header">My Certificates & Internship</header>
+
+<section class="container my-5">
+  <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
+
+    <!-- IBM Certificate -->
+    <div class="col">
+      <div class="card h-100 shadow-lg border-0">
+        <div class="card-body">
+          <h4 class="fw-bold mb-3">Machine Learning in Python</h4>
+          <img src="img/Machine_Learning.png"
+               alt="Machine Learning Certificate"
+               class="img-fluid rounded shadow-sm mb-3"
+               style="max-height:250px; object-fit:cover;">
+
+          <p class="mb-3">
+            <strong>Issued by:</strong> IBM via CognitiveClass.ai <br>
+            <strong>Date:</strong> July 2025
+          </p>
+
+          <a href="https://courses.cognitiveclass.ai/certificates/1f424af1950f4934b7ebeb3d9e87038c"
+             target="_blank"
+             class="btn btn-outline-primary rounded-pill px-4">
+             <i class="fas fa-external-link-alt"></i> View Certificate
+          </a>
         </div>
       </div>
     </div>
-  </section>
 
+    <!-- Internship Certificate -->
+    <div class="col">
+      <div class="card h-100 shadow-lg border-0">
+        <div class="card-body">
+          <h4 class="fw-bold mb-3">Machine Learning Internship</h4>
+
+          <img src="img/intern_crt.jpeg"
+               alt="Internship Certificate"
+               class="img-fluid rounded shadow-sm mb-3"
+               style="max-height:250px; object-fit:cover;">
+
+          <p class="mb-2">
+            <strong>Company:</strong> Aqmenz Automation Pvt. Ltd.
+          </p>
+
+          <p class="mb-2">
+            <strong>Role:</strong> Machine Learning Intern
+          </p>
+
+          <p class="mb-2">
+            <strong>Duration:</strong> April 2026 – May 2026
+          </p>
+
+          <p class="text-muted small">
+            Successfully completed internship training on
+            <strong>Machine Learning Applications</strong>.
+          </p>
+
+          <button class="btn btn-outline-success rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#internshipModal">
+            <i class="fas fa-eye"></i> View Internship Certificate
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Internship Certificate Modal -->
+<div class="modal fade" id="internshipModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">Internship Certificate</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body text-center">
+        <img src="img/intern_crt.jpeg"
+             alt="Internship Certificate Large"
+             class="img-fluid rounded shadow-lg">
+      </div>
+    </div>
+  </div>
+</div>
   <!-- AI Assistant -->
   <button id="prajwal-ai-btn"><i class="fas fa-robot"></i></button>
   <div id="prajwal-ai-chat">
