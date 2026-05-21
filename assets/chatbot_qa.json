@@ -1,114 +1,154 @@
 {
-    "greetings": {
-        "questions": [
-            "hi",
-            "hello",
-            "hey",
-            "hii",
-            "hola"
-        ],
-        "answer": "Hello 👋 How can I help you explore **Prajwal’s portfolio** today?"
-    },
-    "about": {
-        "questions": [
-            "who is prajwal",
-            "about prajwal",
-            "who are you"
-        ],
-        "answer": "👤 **Prajwal** is a **final-year BCA student** skilled in **Web Development, Machine Learning, and Software Development**."
-    },
-    "education": {
-        "questions": [
-            "education",
-            "qualification",
-            "academic background"
-        ],
-        "answer": "🎓 **Education**<br><br>• **BCA (Final Year)** – National Degree College, Bagepalli<br>• **CGPA:** 8.34 | **Completion:** 2026<br><br>• **PUC:** Shree Vijaya College, Chintamani<br>• **Percentage:** 82% | **Year:** 2022<br><br>• **SSLC:** Kishor Composite High School, Chelur<br>• **Percentage:** 89.6% | **Year:** 2020"
-    },
-    "skills": {
-        "questions": [
-            "skills",
-            "technologies",
-            "courses"
-        ],
-        "answer": "🧠 **Courses & Skills**<br><br>🔹 Frontend: HTML, CSS, JavaScript<br>🔹 Programming: Python, Java, C++, C<br>🔹 Tools: Flask, Tkinter, NumPy, Pandas<br>🔹 Database: DBMS, SQLite3"
-    },
-    "projects": {
-        "questions": [
-            "projects",
-            "completed projects",
-            "portfolio projects"
-        ],
-        "answer": "📂 **Projects Overview**<br><br>• PromptStack v1<br>• Student Performance Prediction<br>• College Website<br>• Jessica IDS/IPS (Ongoing)<br><br>👉 Ask me about **any specific project**."
-    },
-    "project_promptstack": {
-        "questions": [
-            "promptstack",
-            "promptstack v1"
-        ],
-        "answer": "🧩 **PromptStack v1**<br>A comprehensive tool to manage, version, and optimize AI prompts, built to streamline workflows for LLM developers."
-    },
-    "project_student_performance": {
-        "questions": [
-            "student performance",
-            "student performance prediction",
-            "ml project"
-        ],
-        "answer": "📊 **Student Performance Prediction**<br>An ML-based system that predicts student grades using academic and social factors to help identify at-risk students early."
-    },
-    "project_college_website": {
-        "questions": [
-            "college website",
-            "web project",
-            "college project"
-        ],
-        "answer": "🏫 **College Website**<br>A responsive college website built using HTML, CSS, JavaScript, and Bootstrap to showcase academic and campus information."
-    },
-    "project_ids_ips": {
-        "questions": [
-            "jessica",
-            "ids",
-            "ips",
-            "jessica ids",
-            "security project"
-        ],
-        "answer": "🛡️ **Jessica IDS/IPS (Ongoing)**<br>An AI-driven Intrusion Detection & Prevention System using Machine Learning to detect and block network threats in real time."
-    },
-    "certificates": {
-        "questions": [
-            "certificates",
-            "certification"
-        ],
-        "answer": "📜 **Certificates**<br>• Machine Learning in Python<br>• Web Development & Programming related certifications"
-    },
-    "resume": {
-        "questions": [
-            "resume",
-            "cv",
-            "download resume",
-            "download cv"
-        ],
-        "answer": "📄 Download Prajwal’s resume:<br><a href='/assets/prajwal_N.pdf' target='_blank'>Download Resume</a>"
-    },
-    "contact": {
-        "questions": [
-            "contact",
-            "email",
-            "phone",
-            "github"
-        ],
-        "answer": "📞 **Contact Info**<br><br>📧 prajwalrajn9@gmail.com<br>📱 +91 9741245850<br>💻 <a href='https://github.com/PrajwalN9741' target='_blank'>GitHub</a>"
-    },
-    "internship": {
-        "questions": [
-            "internship",
-            "job",
-            "hire"
-        ],
-        "answer": "✅ Prajwal is actively seeking **internships and entry-level roles** in **Web Development, ML, and Software Development**."
-    },
-    "fallback": {
-        "questions": [],
-        "answer": "🤖 You can ask about **education, skills, certificates, projects, resume, or contact details**."
-    }
+  "greetings": {
+    "questions": [
+      "hi",
+      "hello",
+      "hey",
+      "hii",
+      "hola"
+    ],
+    "answer": "Hello 👋 Welcome to **Prajwal N's Portfolio Assistant**. How can I help you today?"
+  },
+
+  "about": {
+    "questions": [
+      "who is prajwal",
+      "about prajwal",
+      "who are you",
+      "tell me about prajwal"
+    ],
+    "answer": "👨‍💻 **Prajwal N** is a passionate **final-year BCA student** specializing in **Web Development, Machine Learning, Artificial Intelligence, and Software Engineering**. He builds modern AI-powered applications, full-stack web projects, and cybersecurity systems."
+  },
+
+  "education": {
+    "questions": [
+      "education",
+      "qualification",
+      "academic background",
+      "study"
+    ],
+    "answer": "🎓 **Education**<br><br>• **Bachelor of Computer Applications (BCA)** – National Degree College, Bagepalli<br>📅 Final Year | 🎯 CGPA: 8.34 | ✅ Graduation: 2026<br><br>• **PUC** – Shree Vijaya PU College, Chintamani<br>📊 Percentage: 82% | 📅 2022<br><br>• **SSLC** – Kishor Composite High School, Chelur<br>📊 Percentage: 89.6% | 📅 2020"
+  },
+
+  "skills": {
+    "questions": [
+      "skills",
+      "technologies",
+      "courses",
+      "technical skills"
+    ],
+    "answer": "🧠 **Technical Skills**<br><br>💻 Frontend: HTML, CSS, JavaScript, Bootstrap<br>⚙️ Backend & Programming: Python, Java, C++, C<br>🤖 AI/ML: Machine Learning, NumPy, Pandas, Scikit-learn<br>🛠️ Tools & Frameworks: Flask, Tkinter, Git, GitHub<br>🗄️ Database: SQLite3, DBMS, MongoDB"
+  },
+
+  "projects": {
+    "questions": [
+      "projects",
+      "completed projects",
+      "portfolio projects",
+      "my projects"
+    ],
+    "answer": "📂 **Projects Portfolio**<br><br>🚀 PromptStack v1<br>📊 Student Performance Prediction<br>🏫 College Website<br>🛡️ Jessica IDS/IPS Security System<br>🤖 AI Face Recognition Attendance System<br><br>👉 Ask me about any specific project for detailed information."
+  },
+
+  "project_promptstack": {
+    "questions": [
+      "promptstack",
+      "promptstack v1"
+    ],
+    "answer": "🧩 **PromptStack v1**<br><br>A smart AI prompt management platform designed to organize, optimize, and version prompts efficiently for developers and AI workflows."
+  },
+
+  "project_student_performance": {
+    "questions": [
+      "student performance",
+      "student performance prediction",
+      "ml project"
+    ],
+    "answer": "📊 **Student Performance Prediction System**<br><br>A Machine Learning project that predicts student academic performance using social and academic factors to identify students needing support early."
+  },
+
+  "project_college_website": {
+    "questions": [
+      "college website",
+      "web project",
+      "college project"
+    ],
+    "answer": "🏫 **College Website Project**<br><br>A fully responsive and modern college website developed using HTML, CSS, JavaScript, and Bootstrap with sections for academics, courses, admissions, and campus activities."
+  },
+
+  "project_ids_ips": {
+    "questions": [
+      "jessica",
+      "ids",
+      "ips",
+      "jessica ids",
+      "security project"
+    ],
+    "answer": "🛡️ **Jessica IDS/IPS (Ongoing Project)**<br><br>An advanced AI-powered Intrusion Detection & Prevention System using Machine Learning and Deep Learning for real-time cyber threat monitoring and automated protection."
+  },
+
+  "project_face_recognition": {
+    "questions": [
+      "face recognition",
+      "attendance system",
+      "face detection",
+      "ai attendance"
+    ],
+    "answer": "🤖 **AI Face Recognition Attendance System**<br><br>A smart attendance management system using OpenCV, Machine Learning, and Deep Learning to recognize faces from solo and group images, mark attendance automatically, and manage unknown face detection."
+  },
+
+  "internship": {
+    "questions": [
+      "internship",
+      "internships",
+      "experience",
+      "work experience"
+    ],
+    "answer": "💼 **Internship Experience**<br><br>🏢 Company: Aqmenz Automation Pvt. Ltd.<br>🤖 Role: Machine Learning Intern<br>📅 Duration: April 2026 – May 2026<br><br>Successfully completed internship training on **Machine Learning Applications**."
+  },
+
+  "certificates": {
+    "questions": [
+      "certificates",
+      "certification",
+      "achievements"
+    ],
+    "answer": "📜 **Certificates & Achievements**<br><br>✅ Machine Learning in Python – IBM CognitiveClass.ai<br>✅ Machine Learning Internship Certificate – Aqmenz Automation Pvt. Ltd.<br>✅ Web Development & Programming Certifications"
+  },
+
+  "resume": {
+    "questions": [
+      "resume",
+      "cv",
+      "download resume",
+      "download cv"
+    ],
+    "answer": "📄 Download Prajwal’s Resume:<br><br><a href='/assets/prajwal_N.pdf' target='_blank' class='btn btn-primary'>Download Resume</a>"
+  },
+
+  "contact": {
+    "questions": [
+      "contact",
+      "email",
+      "phone",
+      "github",
+      "linkedin"
+    ],
+    "answer": "📞 **Contact Information**<br><br>📧 Email: prajwalrajn9@gmail.com<br>📱 Phone: +91 9741245850<br>💻 GitHub: <a href='https://github.com/PrajwalN9741' target='_blank'>github.com/PrajwalN9741</a>"
+  },
+
+  "hire": {
+    "questions": [
+      "hire",
+      "job",
+      "available for work",
+      "open to work"
+    ],
+    "answer": "🚀 Prajwal is actively seeking **internships, freelance opportunities, and entry-level roles** in:<br><br>• Web Development<br>• Machine Learning & AI<br>• Software Development<br>• Cybersecurity"
+  },
+
+  "fallback": {
+    "questions": [],
+    "answer": "🤖 I can help you explore Prajwal’s:<br><br>🎓 Education<br>🧠 Skills<br>📂 Projects<br>📜 Certificates<br>💼 Internship Experience<br>📄 Resume<br>📞 Contact Information"
+  }
 }
